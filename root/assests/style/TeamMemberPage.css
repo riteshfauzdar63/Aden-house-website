@@ -1,0 +1,451 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* :root{
+    --white-font : #f7f0f0;
+    --primary-font: "Playfair Display", serif;
+    --seconday-font-family: "Open Sans", sans-serif;
+    --poppins-font: "Poppins", sans-serif;
+    --logo-font-family: "Cinzel", serif;
+    --para-font : "Inter", sans-serif;
+
+    --main-text-color : #295870;
+    --goldern-text-color : #bc8a52;
+    
+} */
+/* .playfair-display{
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+  }
+
+  .open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>;
+    font-style: normal; */
+    /* font-variation-settings:
+      "wdth" 100;
+  } */ 
+
+ 
+
+  header{
+    background-color: #47575D;
+    color: #fff;
+  }
+  .navbar-row{
+    width: 85% !important;
+}
+
+.navbar-row h1{
+  font-family: var(--logo-font-family);
+  font-size: 30px !important;
+  margin-bottom: 0px;
+  line-height: 35px;
+}
+
+  .header-subtext{
+    font-family: var(--seconday-font-family);
+    font-size: 12px;
+    word-spacing: 2px;
+    font-weight: 300;
+}
+
+.navbar .header-btn{
+  color: white;
+  border: 1px solid var(--link-border-color);
+  padding: 7px 20px;
+  border-radius: 0px;
+}
+
+.navbar .header-btn:hover{
+  color: #f7f0f0;
+}
+
+.navbar-toggler{
+  padding: 0.56rem 2.1rem !important;
+  font-family: var(--poppins-font) !important;
+  color: var(--white-font) !important;
+  border: 1px solid var(--link-border-color) !important;
+  border-radius: 0px !important;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  font-weight: 500;
+}
+
+.navbar-toggler:hover{
+  cursor: pointer;
+}
+
+.contact-us-btn{
+  display: none;
+  padding: 0.56rem .76rem;
+  font-family: var(--poppins-font);
+  color: var(--white-font);
+  border: 1px solid var(--link-border-color);
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  font-weight: 500;
+}
+
+.contact-us-btn:hover{
+  cursor: pointer;
+}
+
+.logo-text-content{
+    padding-right: 4rem !important;
+    color: var(--white-font);
+    text-align: end;
+}
+
+.logo-text-content img{
+    width: 12%;
+    margin-right: 4rem;
+    float: inline-end;
+}
+
+.icon-div{
+    display: flex;
+    gap: 15px;
+    justify-content: end;
+    margin-top: 1rem;
+}
+
+.icon-div i{
+    font-size: 30px;
+    color: #e9e8e8;
+}
+
+.navbar{
+    padding-left: 4rem !important;
+}
+
+.navbar-collapse .nav-link{
+  text-decoration: none !important;
+  color: var(--white-font);
+  font-size: 16px;
+  font-weight: 500;
+}
+.navbar-collapse .nav-link.active{
+  border-bottom: 1px solid var(--link-border-color);
+  color: var(--white-font);
+}
+
+.profile{
+  padding-top: 3%;
+  padding-bottom: 2%;
+}
+
+
+.profile h1 {
+  font-family: var(--primary-font);
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--main-text-color);
+}
+
+.profile h2 {
+  font-family: var(--primary-font);
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--goldern-text-color);
+}
+
+.profile p.gdc {
+  font-size: 17px;
+  font-weight: 400;
+  color: #000000;
+  font-family: var(--poppin-font);
+}
+
+
+
+.content .highlight {
+  font-family: var(--primary-font);
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--goldern-text-color);
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 1.14rem;
+    line-height: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: var(--para-font);
+}
+
+.meet-dentist-section{
+  background-color: #f5f0ec;
+  padding: 9% 0;
+  margin-top: 5%;
+}
+.dentist-text{
+  font-size: 1.3rem;
+  padding-top: 48%;
+  text-align: center;
+  color: var(--main-text-color);
+  text-transform: uppercase;
+}
+
+/* award-section */
+
+.award-text{
+  position: absolute;
+  left: 37.5%;
+  margin-top: 3rem;
+    font-family: var(--poppins-font);
+    font-size: 2.5rem !important;
+    letter-spacing: 3px;
+    font-weight: 400;
+    line-height: 45px;
+}
+.award-img-div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.award-img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+
+
+.footer {
+    background-color: #47575D;
+    color: #fff;
+    padding: 50px 20px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+  .footer a{
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .footer .gdc-link{
+    border-bottom: 1px solid;
+  }
+
+  .footer .gdc-link:hover{
+    color: #ddd;
+  }
+
+  .footer .site-update-text{
+    margin-top: 3rem;
+    padding-bottom: 2rem;
+  }
+
+  .footer .phone-detail{
+    margin-top: 2rem;
+  }
+
+  .footer-bottom-icon-row{
+    align-items: center;
+    border-top: 1px solid #d8a77f;
+    border-bottom: 1px solid #d8a77f;
+  }
+
+
+  .footer-bottom {
+    color: #fff;
+    font-size: 14px;
+    display: flex;
+    justify-content: end;
+    gap: 90px;
+  }
+
+  footer .icon-div{
+    justify-content: left;
+    margin: 0px;
+    padding: 15px 0px;
+  }
+
+  footer .icon-div i{
+    font-size: 30px;
+  }
+  
+  .footer-bottom a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-decoration: none;
+  }
+
+  .footer-bottom a:hover {
+    color: #ddd;
+  }
+
+
+ 
+
+  @media screen and (min-width:1024px) and (max-width:1300px) {
+    .navbar-row {
+      width: 90% !important;
+  }
+
+  .navbar{
+    padding-left: 0px !important;
+  }
+  .navbar .header-btn {
+    padding: 7px 14px;
+    font-size: 14px;
+  }
+
+  .navbar-collapse .nav-link {
+    font-size: 14px;
+  }
+  .content .highlight {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    line-height: 1.5;
+  }
+  .content p {
+    font-size: .85rem;
+    margin-bottom: 15px;
+    line-height: 25px;
+  }
+  .meet-dentist-section {
+    padding: 5dvh 0;
+    margin-top: 2%;
+  }
+ 
+  }
+
+  @media screen and (min-width:768px) and (max-width:992px) {
+
+    .logo-text-content {
+       padding-right: 0rem !important;
+      }
+
+    .contact-us-btn{
+      display: block;
+    }
+
+    .profile h1 {
+      font-size: 1.5rem;
+    }
+    .content .highlight {
+      font-size: 1rem;
+      margin-bottom: 10px;
+    }
+    .content p {
+      font-size: .90rem;
+      margin-bottom: 10px;
+    }
+    .meet-dentist-section {
+      margin-top: 2%;
+      padding: 6% 0;
+    }
+    .award-img-div{
+      margin-bottom: 10px;
+    }
+    .footer{
+      font-size: 15px;
+    }
+    
+    .footer .footer-bottom {
+      gap: 50px;
+    }
+    .footer-bottom a {
+      font-size: 11px;
+    }
+  }
+
+  @media screen and (min-width:375px) and (max-width:576px) {
+
+    .navbar{
+      padding-top: 20px;
+    }
+
+    .logo-text-content {
+      padding-right: 3rem !important;
+    }
+
+    .dentist-text {
+      font-size: 1.3rem;
+      padding-top: 10%;
+    }
+
+    .header-subtext {
+      font-size: 13px;
+    }
+
+    .logo-text-content img {
+      width: 22%;
+    }
+
+    .navbar{
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+    }
+    .navbar-toggler {
+      padding: 0.56rem 1.5rem !important;
+    }
+
+    .navbar>.container-fluid{
+      justify-content: space-evenly;
+    }
+
+    .icon-div {
+      gap: 15px;
+      justify-content: center;
+    }
+
+    .contact-us-btn{
+      display: block;
+    }
+
+    .header-bg-img .row {
+      width: 100% !important;
+    }
+
+    .award-img-div {
+      margin-bottom: 10px;
+    }
+
+     
+  .footer {
+    padding: 3rem 0px;
+    text-align: center;
+    
+}
+
+.footer p{
+  font-size: 17px;
+}
+.footer .phone-detail {
+  margin-top: 1.5rem;
+}
+
+.footer .site-update-text {
+  margin-top: 2rem;
+  padding-bottom: 0rem;
+}
+
+
+.footer .icon-div{
+  justify-content: space-evenly;
+  margin: 0px;
+  padding: 10px 0px;
+  }
+
+
+.footer-bottom {
+flex-direction: column;
+text-align: center;
+padding: 1rem;
+gap: 15px;
+font-size: 22px;
+}
+
+}
+ 
